@@ -10,16 +10,22 @@ function App() {
 
 
    const handleBookMark = (blog) =>{
-      setBookmarked([...bookmarkred,blog])
-      console.log(bookmarkred)
+      setBookmarked([...bookmarkred,blog])      
+      
    }
  
 
-   const handleMarkAsRead = (time) => {
+   const handleMarkAsRead = (time,id) => {
     const newTime = readingCount + time;
     setReadingCount(newTime);
+    handleRemoveFromBookMark(id)
    }
-   console.log(readingCount)
+   
+   const handleRemoveFromBookMark = (id) => {
+    const remainingBookMark=bookmarkred.filter((mark)=>mark.id!==id)
+    setBookmarked(remainingBookMark)
+
+   }
 
   return (
     <>
@@ -34,11 +40,12 @@ function App() {
         </div>
         <div className='right-container w-[30%]'>
           <h1>Reading time :{readingCount}</h1>
-          <h1>bookmarked count: 0</h1>
+          <h1>bookmarked count: {bookmarkred.length}</h1>
 
           {
-            bookmarkred.map((marked) => <p>{marked.title}</p>)
+            bookmarkred.map((marked) => <p key={marked.id} className='bg-red-600 p-2 shadow m-2 text-white'>{marked.title}</p>)
           }
+          
         </div>
 
       </div>

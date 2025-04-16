@@ -1,6 +1,6 @@
 [
     {
-        
+        "id":1,
         "cover":"https://i.ibb.co.com/Q3xNHm8R/pexels-asadphoto-169203.jpg",
         "title":"ahorws",
         "author_img":"https://i.ibb.co.com/m5kBV4Kt/IMG-20230916-WA0065.jpg",
@@ -15,13 +15,13 @@
 
 
     {
-        
+        "id":2,
         "cover":"https://i.ibb.co.com/Mkb40J1h/pexels-pixabay-356831.jpg",
         "title":"alyityjdh",
         "author_img":"https://i.ibb.co.com/zh1LTDmj/IMG-20230916-WA0020.jpg",
         "author":"sajib",
         "posted_date":"september 5, 2023",
-        "reading_time":5,
+        "reading_time":7,
         "hashtags":[
             "beginners",
             "es6"
@@ -30,13 +30,13 @@
 
 
     {
-        
+        "id":3,
         "cover":"https://i.ibb.co.com/Q3xNHm8R/pexels-asadphoto-169203.jpg",
         "title":"ajfkydh",
         "author_img":"https://i.ibb.co.com/zh1LTDmj/IMG-20230916-WA0020.jpg",
         "author":"fofrz",
         "posted_date":"june 10, 2023",
-        "reading_time":5,
+        "reading_time":1,
         "hashtags":[
             "beginners",
             "es6"
@@ -45,13 +45,13 @@
 
 
     {
-       
+        "id":4,
         "cover":"https://i.ibb.co.com/Mkb40J1h/pexels-pixabay-356831.jpg",
         "title":"ahkfdk",
         "author_img":"https://i.ibb.co.com/m5kBV4Kt/IMG-20230916-WA0065.jpg",
         "author":"amol",
         "posted_date":"may 8, 2023",
-        "reading_time":5,
+        "reading_time":1,
         "hashtags":[
             "beginners",
             "es6"
